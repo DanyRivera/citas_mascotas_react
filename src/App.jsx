@@ -5,11 +5,13 @@ import ListadoPacientes from "./components/ListadoPacientes";
 function App() {
 
   return (
-    <>
+    <div className="container mx-auto mt-10">
       <Header />
-      <Formulario />
-      <ListadoPacientes />
-    </>
+      <div className="mt-12 md:flex">
+        <Formulario />
+        <ListadoPacientes />
+      </div>
+    </div>
   )
 }
 
